@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    width: 100%;
+    height: 60vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.178),rgba(0,0,0,0.178)), url('img/bgimg.jpg');
+    background-size: 100%;
+}
+/* .card1{
+    width: 50px!important;
+    height: 100px !important;
+} */
+.col-md-6{
+    width: 50px;
+}
+
+nav{
+    display: flex;
+    color: white;
+    justify-content: space-between;
+    padding: 20px 300px;
+    font-size: 20px;
+    
+}
+nav a{
+    text-decoration: none;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-left: 20px;
+
+}
+nav a:hover{
+    color: gray;
+}
+.hed{
+    text-align: center;   
+}
+.hed h1{
+    color: white;
+    font-size: 100px;
+    margin-top: 25px;
+    font-family: sans-serif;
+}
+.hed h2{
+    color: white;
+    font-size: 52px;
+    font-family: sans-serif;
+}
+.searchbox{
+    margin-left: 350px;
+    padding-left: 60px;
+    width: 800px;
+    height: 60px;
+    padding-top: 10px;
+    background-color: white;
+    border: none;
+    border-radius: 8px;
+    justify-content: space-between;
+}
+.input-group-text{
+    background-color: white !important;
+    border: none !important;
+}
+.form-control{
+    border: none !important;
+    max-width: 230px !important;
+}
+.btn1{
+    width: 60px;
+    background-color: white;
+    border: none;
+
+}
+.bgz{
+    background-color:#ef4f5f !important ;
+    color: white !important ;
+}
+.bgz1{
+    background-color:#f8cbcf !important ;
+}
+.hr{
+    color: #ef4f5f;
+}
+.btn{
+    width:150px !important;
+    margin-left: 5px !important;
+}
+.foter a{
+    text-decoration: none;
+    color: rgb(66, 66, 66);
+}
